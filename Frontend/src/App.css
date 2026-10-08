@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Balthazar&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zain&display=swap');
+
+
+
+
+@theme {
+    --font-balthazar: "Balthazar", serif;
+   --font-outfit:"Outfit",sans-serif;
+  --color-try: oklch(0.72 0.11 178);
+  --color-primary: oklch(0.743 0.152 72.73);
+  --color-primaryHover: oklch(0.671 0.137 71.51);
+
+  --color-secondary: oklch(0.575 0.0969 59.17);
+  --color-secondaryHover: oklch(0.512 0.0863 56.69);
+
+  --color-textBlack: oklch(0 0 0);
+  --color-textCharcoal: oklch(0.218 0 89.88);
+
+  --color-textWhite: oklch(0.927 0.0036 91.37);
+
+  --color-bgWhite: oklch(1 0 89.88);
+  --color-bgSoft: oklch(0.89 0.0272 69.27);
+
+  --color-accentTeal: oklch(0.427 0.0691 189.41);
+  --color-accentTealHover: oklch(0.381 0.0611 188.53);
+
+  --color-accentWine: oklch(0.377 0.1123 0.09);
+  --color-accentWineHover: oklch(0.332 0.0943 359.68);
+}
+/* Default font for the whole site */
+html {
+  font-family: var(--font-balthazar);
+}
